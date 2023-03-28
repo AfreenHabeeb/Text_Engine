@@ -1,0 +1,37 @@
+[Config Parms]
+
+
+inputDataFormat = file
+outputDataFormat = file
+repoDirectoryPath = repo
+outputFilesLocation = results
+inputFileNameWithPath = all_cat_data.csv
+inputDataSeparator = ,
+inputHeader = True
+generateUniqueID = n
+groupByID = n
+runSentiment = y
+runNgram = y
+topicOnGrams = 3
+requireTopics = y
+optimizeTopics = y
+u_numOfTopics = 4
+prodRun = n
+
+
+
+
+
+
+
+
+
+
+1. inputDataFormat (Mandatory) : file - to be entered when the input is a file
+2. repoDirectoryPath: Mention the path where the delivered repositories are placed.
+3. outputDataFormat: Output data format - either file/hive is to be mentioned here.
+4. runSentiment = Enter 'y' if you want Sentiment analysis from your input data.
+5. runNgram: Enter 'y' if you want Ngrams generated from your input data.
+6. outputFilesLocation: Output files location path.
+7. topicOnGrams: Please enter 1 / 2 / 3 - to get topic modelling on either unigrams, bigrams or trigrams.
+
